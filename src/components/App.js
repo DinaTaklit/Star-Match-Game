@@ -8,12 +8,4 @@ const StarMatch = () => {
   return <Game key={gameId} startNewGame={() => setGameId(gameId + 1)} />;
 };
 
-
-
-export default function App() {
-  return (
-    <div>
-      <StarMatch></StarMatch>
-    </div>
-  );
-}
+export default StarMatch
