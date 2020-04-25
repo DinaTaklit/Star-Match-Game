@@ -35,3 +35,8 @@ This a simple game where you can learn:
 - Unmouting and Remounting Components
 - Using Custom Hooks 😎
 - Struct Component files: each component and it is logic should be in smae js file 😀
+
+
+## Credits 
+
+All credits go for the [React: Getting Started](https://app.pluralsight.com/library/courses/react-js-getting-started/table-of-contents) by it is instructor Samer Buna from react path in **Pluralsight*. 
