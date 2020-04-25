@@ -1,15 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import utils from '../math-utils';
+import StarsDisplay from './StarsDisplay'
 
-
-// Extract stars as component and since a component should hold one sigle element and here we are using map we need to wrap it into a fragment
-const StarsDisplay = (props) => (
-  <>
-      {utils.range(1, props.count).map((starId) => (
-      <div key={starId} className="star" />
-      ))}
-  </>
-);
 
 
 // Extract play button compoenent
