@@ -10,7 +10,7 @@ Check the game interface here in this pen 😇. and play it 🙃.
 ## Get Started 
 
 - Create the app using `npx reactful app_name`
-- TO run the app use `npm start` and open it in the `localhost:4242/` by defualt.
+- TO run the app use `npm start` and open it in the `localhost:4242/` by defualt. It will run two command webpack and the server on the backend.
 
 The usage of  `npx reactful` is exactly like `npx create-react-app` repo but the differences is:
 - This will be bare-bone, no extra features, just the absolure minimum things that you need
