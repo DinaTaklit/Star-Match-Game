@@ -1,19 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import utils from '../math-utils';
-import StarsDisplay from './StarsDisplay'
+import StarsDisplay from './StarsDisplay';
+import PlayNumber from './PlayNumber';
 
-
-
-// Extract play button compoenent
-const PlayNumber = (props) => (
-  <button
-    className="number"
-    style={{ backgroundColor: colors[props.status] }}
-    onClick={() => props.onClick(props.number, props.status)}
-  >
-    {props.number}
-  </button>
-);
 
 // Add playAgain component which will be shown after the game is done
 const PlayAgain = (props) => (
@@ -148,13 +137,6 @@ const StarMatch = () => {
   return <Game key={gameId} startNewGame={() => setGameId(gameId + 1)} />;
 };
 
-// Color Theme
-const colors = {
-  available: 'lightgray',
-  used: 'lightgreen',
-  wrong: 'lightcoral',
-  candidate: 'deepskyblue',
-};
 
 
 export default function App() {

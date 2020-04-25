@@ -10,4 +10,5 @@ const StarsDisplay = (props) => (
     </>
 );
 
+
 export default StarsDisplay;
