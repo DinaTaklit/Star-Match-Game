@@ -33,4 +33,5 @@ This a simple game where you can learn:
 - Resetting the state
 - Using Side Effects Hooks by adding a timer to the game 👌
 - Unmouting and Remounting Components
-- Using Custom Hooks 😎.
+- Using Custom Hooks 😎
+- Struct Component files: each component and it is logic should be in smae js file 😀
