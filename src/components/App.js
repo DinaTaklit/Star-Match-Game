@@ -2,20 +2,8 @@ import React, { useState, useEffect } from 'react';
 import utils from '../math-utils';
 import StarsDisplay from './StarsDisplay';
 import PlayNumber from './PlayNumber';
+import PlayAgain from './PlayAgain';
 
-
-// Add playAgain component which will be shown after the game is done
-const PlayAgain = (props) => (
-  <div className="game-done">
-    <div
-      className="message"
-      style={{ color: props.gameStatus === 'lost' ? 'red' : 'green' }}
-    >
-      {props.gameStatus === 'lost' ? 'Game Over' : 'You Won!'}
-    </div>
-    <button onClick={props.onClick}> Play Again</button>
-  </div>
-);
 
 // Introduce a custom hook to hold that will manage the states of the game
 const useGameState = () => {
