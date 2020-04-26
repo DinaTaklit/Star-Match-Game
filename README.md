@@ -1,7 +1,7 @@
 # Star Match Game 😀
 This is a simple game where it show a random stars in the left and numbers in the right. You should kept number where the sum of them is equal to the number of stars. The game is rendred till you use all the set of numbers. You should get correct answers within the required time. Otherways you will lose.
 
-Check the game interface here in this pen 😇. and play it 🙃.
+Check the game interface here in this [pen](https://codepen.io/DinaTAKLIT/pen/BaoWYrp) 😇. Enjoy playing 🙃.
 
 > Note: it is same app [here](https://github.com/DinaTaklit/StarMatchGame).
 > But create with `npx reactful` instead of `npx create-react-app`
